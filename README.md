@@ -2,7 +2,7 @@
 In this assignment, we will learn the fundamental codes and functions used in Python programming. The goal is not just to understand how these codes work, but to put them into practice. We'll use them to create simple Python programs, which will give us a hands-on experience and a deeper understanding. 
 
 
-#1. Alphabet Soup Problem
+# 1. Alphabet Soup Problem
 
 The task is to create a function that takes a string as input and returns a new string with letters arranged alphabetically. 
 This code sorts the letters of each word alphabetically and outputs the rearranged version. 
