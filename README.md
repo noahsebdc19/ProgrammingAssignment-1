@@ -8,12 +8,15 @@ This code sorts the letters of each word alphabetically and outputs the rearrang
 It's like taking a word, scrambling its letters, and then neatly organizing them from A to Z.
 
 s = "hello"               Store the word "hello" in variable s
+
 n = ''.join(sorted(s))   # Sort the letters of "hello" alphabetically and join into "ehllo"
 
 k = "noah"                Store the word "noah" in variable k
+
 l = ''.join(sorted(k))    Sort the letters of "noah" alphabetically and join into "ahno"
 
 print(n)                  Print "ehllo"
+
 print(l)                  Print "ahno"
 
 
@@ -24,20 +27,27 @@ print(l)                  Print "ahno"
  to their expressiveness. In summary, it transforms feelings into emojis, making the process engaging and enjoyable.
 
 s = 'I am happy!'                                    Store the sentence "I am happy!" in variable s
+
 k = s.replace("happy", ":)")                         Replace the word "happy" with ":)" → "I am :)"
 
 u = 'You make me go insane!'                         Store the sentence "You make me go insane!" in variable u
+
 a = u.replace("insane", ":D")                        Replace the word "insane" with ":D" → "You make me go :D"
 
 n = "I'm really feeling sad these days."             Store the sentence with "sad" in variable n
+
 p = n.replace("sad", ":(")                           Replace "sad" with ":(" → "I'm really feeling :( these days."
 
 y = "I was angry with myself for making such a mistake."   Store the sentence with "angry" in variable y
+
 m = y.replace("angry", ">:(")                        Replace "angry" with ">:(" → "I was >:( with myself for making such a mistake."
 
 print(k)                                             Print "I am :)"
+
 print(a)                                             Print "You make me go :D"
+
 print(p)                                             Print "I'm really feeling :( these days."
+
 print(m)                                             Print "I was >:( with myself for making such a mistake."
 
 
@@ -49,10 +59,15 @@ print(m)                                             Print "I was >:( with mysel
  effectively illustrating how lists can be divided into smaller parts.
 
 Ist = [1, 2, 3, 4, 5, 6]      Create a list of numbers from 1 to 6 and store it in variable Ist
+
 first = Ist[0]                Take the very first element (index 0 → number 1) and store it in 'first'
+
 middle = Ist[1:5]              Slice the list from index 1 up to index 4 → [2, 3, 4, 5]
+
 last = Ist[5]                  Take the element at index 5 (the last number → 6) and store it in 'last'
 
 print("first: ", first)        Print: first:  1
+
 print("middle: ", middle)      Print: middle:  [2, 3, 4, 5]
+
 print("last: ", last)          Print: last:  6
