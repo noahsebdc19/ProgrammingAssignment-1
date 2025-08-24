@@ -8,17 +8,14 @@ The task is to create a function that takes a string as input and returns a new 
 This code sorts the letters of each word alphabetically and outputs the rearranged version. 
 It's like taking a word, scrambling its letters, and then neatly organizing them from A to Z.
 
-s = "hello"               (# Store the word "hello" in variable s)
+# Ask the user to enter a word
+word = input("Enter a word: ")
 
-n = ''.join(sorted(s))   (# Sort the letters of "hello" alphabetically and join into "ehllo")
+# Sort the letters alphabetically and join them back into a string
+sorted_word = ''.join(sorted(word))
 
-k = "noah"               (# Store the word "noah" in variable k)
-
-l = ''.join(sorted(k))    (# Sort the letters of "noah" alphabetically and join into "ahno")
-
-print(n)                 (# Print "ehllo")
-
-print(l)                 (# Print "ahno")
+# Print the result
+print("Alphabetical Order:", sorted_word)
 
 
 # 2. Emoticon Problem
@@ -28,29 +25,17 @@ print(l)                 (# Print "ahno")
  This code processes sentences expressing different emotions and substitutes these words with emoji-like symbols, adding a fun twist 
  to their expressiveness. In summary, it transforms feelings into emojis, making the process engaging and enjoyable.
 
-s = 'I am happy!'                                  (# Store the sentence "I am happy!" in variable s)
+# Ask the user to type a sentenceyo
+sentence = input("Enter a sentence: ")
 
-k = s.replace("happy", ":)")                       (# Replace the word "happy" with ":)" → "I am :)")
+# Replace certain words with emojis
+sentence = sentence.replace("happy", ":)")
+sentence = sentence.replace("insane", ":D")
+sentence = sentence.replace("sad", ":(")
+sentence = sentence.replace("angry", ">:(")
 
-u = 'You make me go insane!'                       (# Store the sentence "You make me go insane!" in variable u)
-
-a = u.replace("insane", ":D")                      (# Replace the word "insane" with ":D" → "You make me go :D")
-
-n = "I'm really feeling sad these days."           (# Store the sentence with "sad" in variable n)
-
-p = n.replace("sad", ":(")                         (# Replace "sad" with ":(" → "I'm really feeling :( these days.")
-
-y = "I was angry with myself for making such a mistake."  (# Store the sentence with "angry" in variable y)
-
-m = y.replace("angry", ">:(")                       (# Replace "angry" with ">:(" → "I was >:( with myself for making such a mistake.")
-
-print(k)                                            (# Print "I am :)")
-
-print(a)                                            (# Print "You make me go :D")
-
-print(p)                                           (# Print "I'm really feeling :( these days.")
-
-print(m)                                            (# Print "I was >:( with myself for making such a mistake.")
+# Print the updated sentence
+print("Emoji version:", sentence)
 
 
 # 3. Unpacking List Problem
@@ -61,16 +46,23 @@ print(m)                                            (# Print "I was >:( with mys
  This method allows to easily identify and display the first element, the middle group of elements, and the last element, 
  effectively illustrating how lists can be divided into smaller parts.
 
-Ist = [1, 2, 3, 4, 5, 6]     (# Create a list of numbers from 1 to 6 and store it in variable Ist)
+# Create a list of numbers from 1 to 6 and store it in variable Ist
+Ist = [1, 2, 3, 4, 5, 6]     
 
-first = Ist[0]               (# Take the very first element (index 0 → number 1) and store it in 'first')
+# Take the very first element (index 0 → number 1) and store it in 'first'
+first = Ist[0]               
 
-middle = Ist[1:5]             (# Slice the list from index 1 up to index 4 → [2, 3, 4, 5])
+# Slice the list from index 1 up to index 4 → [2, 3, 4, 5]
+middle = Ist[1:5]             
 
-last = Ist[5]                 (# Take the element at index 5 (the last number → 6) and store it in 'last')
+# Take the element at index 5 (the last number → 6) and store it in 'last'
+last = Ist[5]      
 
-print("first: ", first)       (# Print: first:  1)
+# Print: first:  1
+print("first: ", first)       
 
-print("middle: ", middle)     (# Print: middle:  [2, 3, 4, 5])
+# Print: middle:  [2, 3, 4, 5]
+print("middle: ", middle)    
 
-print("last: ", last)         (# Print: last:  6)
+# Print: last:  6
+print("last: ", last)         
