@@ -35,8 +35,11 @@ sentence = input("Enter a sentence: ")
 #Replace certain words with emojis
 
 sentence = sentence.replace("happy", ":)")
+
 sentence = sentence.replace("insane", ":D")
+
 sentence = sentence.replace("sad", ":(")
+
 sentence = sentence.replace("angry", ">:(")
 
 #Print the updated sentence
