@@ -25,7 +25,7 @@ print("Alphabetical Order:", sorted_word)
  This code processes sentences expressing different emotions and substitutes these words with emoji-like symbols, adding a fun twist 
  to their expressiveness. In summary, it transforms feelings into emojis, making the process engaging and enjoyable.
 
-# Ask the user to type a sentenceyo
+# Ask the user to type a sentence
 sentence = input("Enter a sentence: ")
 
 # Replace certain words with emojis
