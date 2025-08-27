@@ -9,17 +9,17 @@ This code sorts the letters of each word alphabetically and outputs the rearrang
 It's like taking a word, scrambling its letters, and then neatly organizing them from A to Z.
 
 
- 	#Ask the user to enter a word
+ 	# Ask the user to enter a word
 
 	word = input("Enter a word: ")
 
 
-	#Sort the letters alphabetically and join them back into a string
+	# Sort the letters alphabetically and join them back into a string
 
 	sorted_word = ''.join(sorted(word))
 
 
-	#Print the result
+	# Print the result
 
 	print("Alphabetical Order:", sorted_word)
 
@@ -32,12 +32,12 @@ It's like taking a word, scrambling its letters, and then neatly organizing them
  to their expressiveness. In summary, it transforms feelings into emojis, making the process engaging and enjoyable.
 
 
-	#Ask the user to type a sentence
+	# Ask the user to type a sentence
 
 	sentence = input("Enter a sentence: ")
 
 
-	#Replace certain words with emojis
+	# Replace certain words with emojis
 
 	sentence = sentence.replace("happy", ":)")
 
@@ -49,7 +49,7 @@ It's like taking a word, scrambling its letters, and then neatly organizing them
 	sentence = sentence.replace("angry", ">:(")
 
 
-	#Print the updated sentence
+	# Print the updated sentence
 
 	print("Emoji version:", sentence)
 
@@ -63,36 +63,36 @@ It's like taking a word, scrambling its letters, and then neatly organizing them
  effectively illustrating how lists can be divided into smaller parts.
 
 
-	#Create a list of numbers from 1 to 6 and store it in variable Ist
+	# Create a list of numbers from 1 to 6 and store it in variable Ist
 
 	Ist = [1, 2, 3, 4, 5, 6]     
 
 
-	#Take the very first element (index 0 → number 1) and store it in 'first'
+	# Take the very first element (index 0 → number 1) and store it in 'first'
 
 	first = Ist[0]               
 
 
-	#Slice the list from index 1 up to index 4 → [2, 3, 4, 5]
+	# Slice the list from index 1 up to index 4 → [2, 3, 4, 5]
 
 	middle = Ist[1:5]             
 
 
-	#Take the element at index 5 (the last number → 6) and store it in 'last'
+	# Take the element at index 5 (the last number → 6) and store it in 'last'
 
 	last = Ist[5]      
 
 
-	#Print: first:  1
+	# Print: first:  1
 
 	print("first: ", first)       
 
 
-	#Print: middle:  [2, 3, 4, 5]
+	# Print: middle:  [2, 3, 4, 5]
 
 	print("middle: ", middle)    
 
 
-	#Print: last:  6
+	# Print: last:  6
 
 	print("last: ", last)         
